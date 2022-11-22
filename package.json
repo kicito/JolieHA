@@ -1,0 +1,21 @@
+{
+  "name": "@jolie/harp",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.ol",
+  "repo": "",
+  "keywords": [],
+  "author": "nau",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-fetcher": "jolie --params fetcher.json fetcher.ol"
+  },
+  "jolie": {
+    "dependencies": {},
+    "maven": {
+      "dependencies": {},
+      "indirectDependencies": {}
+    }
+  }
+}
