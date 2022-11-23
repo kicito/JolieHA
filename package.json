@@ -9,7 +9,8 @@
   "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run-fetcher": "jolie --params fetcher.json fetcher.ol"
+    "run-fetcher": "jolie --params fetcher.json fetcher.ol",
+    "start": "jolie --params params.json main.ol"
   },
   "jolie": {
     "dependencies": {},

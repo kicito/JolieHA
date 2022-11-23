@@ -1,0 +1,20 @@
+{
+  "name": "HA-example",
+  "queries": [
+    {
+      "name": "p"
+    },
+    {
+      "name": "q"
+    },
+    {
+      "name": "r"
+    }
+  ],
+  "dbConnection": "dbconnectionstring",
+  "acceptLocation": "socket://localhost:3004",
+  "fetcher": {
+    "target": "an endpoint",
+    "period": 1000
+  }
+}
